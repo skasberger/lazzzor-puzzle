@@ -1,0 +1,9 @@
+{
+	"layers": [{
+		"src": "puzzles/oesterreich/oesterreich.shp"
+	}],
+	"export": {
+		"width": 600,
+		"height": 600
+	}
+}

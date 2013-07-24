@@ -1,0 +1,9 @@
+{
+	"layers": [{
+		"src": "puzzles/deutschland/deutschland.shp"
+	}],
+	"export": {
+		"width": 600,
+		"height": 600
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"layers": [{
+		"src": "puzzles/graz/graz.shp"
+	}],
+	"export": {
+		"width": 600,
+		"height": 600
+	}
+}
+{
+	"layers": [{
+		"src": "puzzles/graz/graz.shp"
+	}],
+	"export": {
+		"width": 600,
+		"height": 600
+	}
+}
