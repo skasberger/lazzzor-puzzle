@@ -1,5 +1,11 @@
 #/bin/sh
-
+# 
+# Author: Stefan Kasberger
+# Date: 25. July 2013
+#
+# Description: This script converts shapefiles into vector files 
+# to create puzzles with a lasser cutter
+#
 
 #
 # Function to check if all files of shape for kartograph.py exists (*.shp, *.shx, *. dbf)

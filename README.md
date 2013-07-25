@@ -5,13 +5,13 @@ This is a tiny script to automatically convert shapfiles to SVG and PDF files fo
 
 ## Documentation
 ### Function
-#### Preparations
+**Preparations**
 First, the script copies all three necessary files of the shapefile () to get processed afterwards by kartograph.py. The files will be copied to a folder called after the shapefile. In there will be created a json-file
 
-#### Kartograph.py
+**Kartograph.py**
 Kartograph.py needs a config in form of a json-file, which will be created and named after the shapefile. After this Kartograph.py converts the shape-file into an svg-file.
 
-#### Convert 2 PDF
+**Convert 2 PDF**
 At the end, the script converts the svg-file into a pdf.
 
 All files are named after the shapefiles filenames and will be stored in puzzles/ in a subfolder called as the shapefile.
@@ -21,9 +21,9 @@ Before to start, you have to install Kartograph.py on your pc. Find out more abo
 
 ### Execute
 To convert a shape file:
-- check, if you have all 3 necessary shapfiles (*.shp, *.shx, *.dbf)
-- change your directory to the root directory of the repo (where the shape2images.sh file is)
-- execute the shell-script: pass the shapefile as argument. Optional you also can pass the new folder name.
+* check, if you have all 3 necessary shapfiles (*.shp, *.shx, *.dbf)
+* change your directory to the root directory of the repo (where the shape2images.sh file is)
+* execute the shell-script: Pass the shapefile as argument. Optional you also can pass the new folder name.
 
 ```shell
 sh shape2images.sh FOLDER/FILENAME.shp
@@ -36,12 +36,12 @@ sh shape2images.sh FOLDER/FILENAME.shp NEWFOLDER/
 ```
 This will store the files in the folder puzzles/NEWFOLDER/
 
-The project was an idea of [Michael Bauer](https://twitter.com/mihi_tr) and realized together wit Stefan Kasberger during the Open Week Graz Auswärtsspiel at the [Metalab](https://metalab.at/) on their [Lazzzor](http://lazzzor.soup.io/) in Vienna.
+The project was originaly an idea of [Michael Bauer](https://twitter.com/mihi_tr) realized during the Open Week Graz Auswärtsspiel at the [Metalab](https://metalab.at/) on their [Lazzzor](http://lazzzor.soup.io/) in Vienna. I contributed the script.
 
 ## Participate
 If you made some new vector files, it would be amazing to share your files with others and merge it with this repo.
 
-**Pleas don't forget to add a LICENSE text for the shape files inside the folders!**
+**Please don't forget to add a LICENSE text for the shape files inside the folders!**
 
 You also can add some functions to the script or add a documentation how to use the lazzzer cutter, which material can be used or what other things can be made out of this. 
 
@@ -60,4 +60,5 @@ You also can add some functions to the script or add a documentation how to use 
 - austrian municipalities 
 - eco zones
 - climate zones
+- add a frame to svg and pdf
 
